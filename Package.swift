@@ -13,10 +13,6 @@ let package = Package(
     targets: [
         .target(
             name: "ResearchKit",
-            path: "ResearchKit"
-        ),
-        .testTarget(
-            name: "ResearchKitTests"
-        ),
+            path: "ResearchKit"),
     ]
 )
