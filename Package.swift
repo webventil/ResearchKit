@@ -12,7 +12,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ResearchKit"
+            name: "ResearchKit",
+            path: ".",
+            sources: ["ResearchKit"]
         ),
         .testTarget(
             name: "ResearchKitTests"
